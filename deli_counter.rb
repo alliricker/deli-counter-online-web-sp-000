@@ -8,8 +8,14 @@ def line (array)
 else
   array.each.with_index(1) do |name, index|
     wait_array.push("#{index}. #{name}")
-  
+
   end
   puts "The line is currently: #{wait_array.join(" ")}"
  end
+end
+
+def take_a_number(katz_deli, name)
+katz_deli << (name)
+
+
 end
