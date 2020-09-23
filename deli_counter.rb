@@ -7,7 +7,7 @@ def line (katz_deli)
   puts "The line is currently empty."
 else
   katz_deli.each.with_index(1) do |name, index|
-    wait_array.push("#{index}. #{name}")
+    wait_array << ("#{index}. #{name}")
 
   end
   puts "The line is currently: #{wait_array.join(" ")}"
